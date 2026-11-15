@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# Generated outputs
+outputs/
+batch_results/
+无价值固定地图批量生成结果/
+coverage/
+*.coverage
+uav_planner/experiments/**/results/
+
+# Local reference repositories
+references/PythonRobotics/
+
+# OS files
+.DS_Store
+Thumbs.db

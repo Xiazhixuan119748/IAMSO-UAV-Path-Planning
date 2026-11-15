@@ -1,0 +1,5245 @@
+{
+  "dataset_name": "medium60_density20_reachable_100",
+  "dataset_version": "1.0",
+  "created_at": "2026-07-21T17:50:26+08:00",
+  "root": "uav_planner/experiments/no_task_corner/datasets/medium60_density20_reachable_100",
+  "value_mode": "no_task",
+  "start_rule": "fixed_upper_left",
+  "goal_rule": "fixed_lower_right",
+  "cost_profile": "no_task_model_cost",
+  "evaluation_profile": "no_task",
+  "generation_rule": {
+    "map_sizes": [
+      60
+    ],
+    "difficulty_counts": {
+      "medium20": 100
+    },
+    "start_rule": "fixed_upper_left",
+    "goal_rule": "fixed_lower_right",
+    "obstacle_mode": "multi_shape",
+    "wall_obstacles_enabled": false,
+    "connectivity_protected": true,
+    "connectivity_rule": "collision_safe_8_neighbor",
+    "value_mode": "no_task",
+    "terminal_safety_radius": {
+      "60": 3
+    },
+    "target_obstacle_ratio": {
+      "60": 0.2
+    }
+  },
+  "difficulty_specs": {
+    "medium20": {
+      "label": "中等20%障碍",
+      "size": 60,
+      "count": 100,
+      "seed_base": 2026077100,
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3
+    }
+  },
+  "map_count": 100,
+  "maps": [
+    {
+      "id": "medium20_001",
+      "file": "medium20_001.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077101,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20027777777777778,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 8,
+          "ellipse": 6,
+          "diamond": 9,
+          "l_shape": 11,
+          "t_shape": 3
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200278,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_002",
+      "file": "medium20_002.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077102,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 38,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 3,
+          "ellipse": 7,
+          "diamond": 6,
+          "l_shape": 8,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_003",
+      "file": "medium20_003.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077103,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 6,
+          "ellipse": 4,
+          "diamond": 8,
+          "l_shape": 5,
+          "t_shape": 12
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_004",
+      "file": "medium20_004.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077104,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20083333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 44,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 12,
+          "circle": 7,
+          "ellipse": 3,
+          "diamond": 6,
+          "l_shape": 9,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200833,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_005",
+      "file": "medium20_005.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077105,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20027777777777778,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 9,
+          "ellipse": 8,
+          "diamond": 6,
+          "l_shape": 5,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200278,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_006",
+      "file": "medium20_006.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077106,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20416666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 46,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 4,
+          "circle": 8,
+          "ellipse": 8,
+          "diamond": 7,
+          "l_shape": 13,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.204167,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_007",
+      "file": "medium20_007.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077107,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20166666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 36,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 8,
+          "ellipse": 4,
+          "diamond": 9,
+          "l_shape": 6,
+          "t_shape": 1
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201667,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_008",
+      "file": "medium20_008.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077108,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20333333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 40,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 6,
+          "ellipse": 7,
+          "diamond": 11,
+          "l_shape": 5,
+          "t_shape": 4
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203333,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_009",
+      "file": "medium20_009.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077109,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20222222222222222,
+        "safety_radius": 3,
+        "accepted_shape_count": 44,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 10,
+          "circle": 5,
+          "ellipse": 7,
+          "diamond": 5,
+          "l_shape": 8,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.202222,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_010",
+      "file": "medium20_010.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077110,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2038888888888889,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 3,
+          "ellipse": 6,
+          "diamond": 9,
+          "l_shape": 6,
+          "t_shape": 12
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203889,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_011",
+      "file": "medium20_011.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077111,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20083333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 38,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 9,
+          "ellipse": 4,
+          "diamond": 7,
+          "l_shape": 6,
+          "t_shape": 5
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200833,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_012",
+      "file": "medium20_012.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077112,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20166666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 5,
+          "ellipse": 5,
+          "diamond": 5,
+          "l_shape": 10,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201667,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_013",
+      "file": "medium20_013.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077113,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 41,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 6,
+          "ellipse": 7,
+          "diamond": 6,
+          "l_shape": 8,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_014",
+      "file": "medium20_014.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077114,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 5,
+          "ellipse": 10,
+          "diamond": 7,
+          "l_shape": 10,
+          "t_shape": 4
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.2,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_015",
+      "file": "medium20_015.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077115,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20166666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 8,
+          "ellipse": 7,
+          "diamond": 6,
+          "l_shape": 7,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201667,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_016",
+      "file": "medium20_016.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077116,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20277777777777778,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 4,
+          "ellipse": 7,
+          "diamond": 5,
+          "l_shape": 9,
+          "t_shape": 11
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.202778,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_017",
+      "file": "medium20_017.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077117,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20194444444444445,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 3,
+          "circle": 10,
+          "ellipse": 7,
+          "diamond": 9,
+          "l_shape": 10,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201944,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_018",
+      "file": "medium20_018.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077118,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 4,
+          "circle": 8,
+          "ellipse": 6,
+          "diamond": 6,
+          "l_shape": 12,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_019",
+      "file": "medium20_019.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077119,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20472222222222222,
+        "safety_radius": 3,
+        "accepted_shape_count": 48,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 3,
+          "circle": 8,
+          "ellipse": 14,
+          "diamond": 9,
+          "l_shape": 7,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.204722,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_020",
+      "file": "medium20_020.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077120,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 47,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 7,
+          "ellipse": 8,
+          "diamond": 8,
+          "l_shape": 7,
+          "t_shape": 10
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_021",
+      "file": "medium20_021.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077121,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20305555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 10,
+          "circle": 8,
+          "ellipse": 6,
+          "diamond": 6,
+          "l_shape": 7,
+          "t_shape": 5
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203056,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_022",
+      "file": "medium20_022.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077122,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 46,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 4,
+          "ellipse": 6,
+          "diamond": 7,
+          "l_shape": 10,
+          "t_shape": 10
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_023",
+      "file": "medium20_023.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077123,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20083333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 49,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 6,
+          "ellipse": 10,
+          "diamond": 9,
+          "l_shape": 10,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200833,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_024",
+      "file": "medium20_024.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077124,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 8,
+          "ellipse": 7,
+          "diamond": 6,
+          "l_shape": 7,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_025",
+      "file": "medium20_025.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077125,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20083333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 50,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 10,
+          "circle": 10,
+          "ellipse": 9,
+          "diamond": 7,
+          "l_shape": 7,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200833,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_026",
+      "file": "medium20_026.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077126,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2013888888888889,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 1,
+        "shape_mix": {
+          "rectangle": 12,
+          "circle": 7,
+          "ellipse": 5,
+          "diamond": 3,
+          "l_shape": 7,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 1,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201389,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_027",
+      "file": "medium20_027.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077127,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2025,
+        "safety_radius": 3,
+        "accepted_shape_count": 44,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 9,
+          "ellipse": 9,
+          "diamond": 8,
+          "l_shape": 7,
+          "t_shape": 3
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.2025,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_028",
+      "file": "medium20_028.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077128,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20694444444444443,
+        "safety_radius": 3,
+        "accepted_shape_count": 46,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 5,
+          "ellipse": 6,
+          "diamond": 9,
+          "l_shape": 10,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.206944,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_029",
+      "file": "medium20_029.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077129,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20277777777777778,
+        "safety_radius": 3,
+        "accepted_shape_count": 47,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 4,
+          "circle": 6,
+          "ellipse": 8,
+          "diamond": 12,
+          "l_shape": 8,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.202778,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_030",
+      "file": "medium20_030.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077130,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2,
+        "safety_radius": 3,
+        "accepted_shape_count": 47,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 10,
+          "ellipse": 9,
+          "diamond": 8,
+          "l_shape": 4,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.2,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_031",
+      "file": "medium20_031.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077131,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 39,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 10,
+          "circle": 5,
+          "ellipse": 2,
+          "diamond": 5,
+          "l_shape": 6,
+          "t_shape": 11
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_032",
+      "file": "medium20_032.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077132,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20444444444444446,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 3,
+          "ellipse": 10,
+          "diamond": 8,
+          "l_shape": 7,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.204444,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_033",
+      "file": "medium20_033.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077133,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20083333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 39,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 5,
+          "ellipse": 8,
+          "diamond": 6,
+          "l_shape": 3,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200833,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_034",
+      "file": "medium20_034.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077134,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 40,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 13,
+          "circle": 3,
+          "ellipse": 8,
+          "diamond": 8,
+          "l_shape": 4,
+          "t_shape": 4
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_035",
+      "file": "medium20_035.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077135,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 47,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 10,
+          "ellipse": 9,
+          "diamond": 8,
+          "l_shape": 11,
+          "t_shape": 4
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_036",
+      "file": "medium20_036.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077136,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20305555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 44,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 9,
+          "ellipse": 5,
+          "diamond": 7,
+          "l_shape": 10,
+          "t_shape": 4
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203056,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_037",
+      "file": "medium20_037.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077137,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20916666666666667,
+        "safety_radius": 3,
+        "accepted_shape_count": 44,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 6,
+          "ellipse": 8,
+          "diamond": 6,
+          "l_shape": 9,
+          "t_shape": 10
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.209167,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_038",
+      "file": "medium20_038.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077138,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.205,
+        "safety_radius": 3,
+        "accepted_shape_count": 44,
+        "rejected_shape_count": 1,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 8,
+          "ellipse": 5,
+          "diamond": 7,
+          "l_shape": 9,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 1,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.205,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_039",
+      "file": "medium20_039.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077139,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 5,
+          "ellipse": 5,
+          "diamond": 11,
+          "l_shape": 8,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_040",
+      "file": "medium20_040.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077140,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2025,
+        "safety_radius": 3,
+        "accepted_shape_count": 41,
+        "rejected_shape_count": 1,
+        "shape_mix": {
+          "rectangle": 10,
+          "circle": 7,
+          "ellipse": 6,
+          "diamond": 9,
+          "l_shape": 4,
+          "t_shape": 5
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 1,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.2025,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_041",
+      "file": "medium20_041.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077141,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20444444444444446,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 6,
+          "ellipse": 7,
+          "diamond": 10,
+          "l_shape": 6,
+          "t_shape": 5
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.204444,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_042",
+      "file": "medium20_042.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077142,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20333333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 46,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 12,
+          "ellipse": 4,
+          "diamond": 6,
+          "l_shape": 4,
+          "t_shape": 14
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203333,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_043",
+      "file": "medium20_043.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077143,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20194444444444445,
+        "safety_radius": 3,
+        "accepted_shape_count": 44,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 10,
+          "ellipse": 9,
+          "diamond": 5,
+          "l_shape": 8,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201944,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_044",
+      "file": "medium20_044.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077144,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20027777777777778,
+        "safety_radius": 3,
+        "accepted_shape_count": 47,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 5,
+          "ellipse": 7,
+          "diamond": 12,
+          "l_shape": 14,
+          "t_shape": 4
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200278,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_045",
+      "file": "medium20_045.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077145,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 41,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 14,
+          "ellipse": 5,
+          "diamond": 4,
+          "l_shape": 9,
+          "t_shape": 4
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_046",
+      "file": "medium20_046.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077146,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20305555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 12,
+          "ellipse": 7,
+          "diamond": 2,
+          "l_shape": 10,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203056,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_047",
+      "file": "medium20_047.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077147,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20166666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 44,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 4,
+          "ellipse": 4,
+          "diamond": 4,
+          "l_shape": 11,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201667,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_048",
+      "file": "medium20_048.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077148,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 4,
+          "circle": 8,
+          "ellipse": 4,
+          "diamond": 6,
+          "l_shape": 10,
+          "t_shape": 10
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.2,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_049",
+      "file": "medium20_049.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077149,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20083333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 6,
+          "ellipse": 6,
+          "diamond": 6,
+          "l_shape": 7,
+          "t_shape": 11
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200833,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_050",
+      "file": "medium20_050.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077150,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20083333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 38,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 9,
+          "ellipse": 6,
+          "diamond": 6,
+          "l_shape": 5,
+          "t_shape": 5
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200833,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_051",
+      "file": "medium20_051.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077151,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20166666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 6,
+          "ellipse": 6,
+          "diamond": 13,
+          "l_shape": 7,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201667,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_052",
+      "file": "medium20_052.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077152,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20222222222222222,
+        "safety_radius": 3,
+        "accepted_shape_count": 38,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 4,
+          "ellipse": 7,
+          "diamond": 7,
+          "l_shape": 2,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.202222,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_053",
+      "file": "medium20_053.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077153,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20416666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 41,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 10,
+          "circle": 8,
+          "ellipse": 5,
+          "diamond": 7,
+          "l_shape": 5,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.204167,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_054",
+      "file": "medium20_054.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077154,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 47,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 15,
+          "ellipse": 3,
+          "diamond": 10,
+          "l_shape": 6,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_055",
+      "file": "medium20_055.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077155,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 3,
+          "circle": 6,
+          "ellipse": 10,
+          "diamond": 7,
+          "l_shape": 11,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_056",
+      "file": "medium20_056.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077156,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2013888888888889,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 6,
+          "ellipse": 9,
+          "diamond": 10,
+          "l_shape": 8,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201389,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_057",
+      "file": "medium20_057.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077157,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20083333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 7,
+          "ellipse": 3,
+          "diamond": 9,
+          "l_shape": 6,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200833,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_058",
+      "file": "medium20_058.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077158,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20083333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 46,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 7,
+          "ellipse": 6,
+          "diamond": 8,
+          "l_shape": 11,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200833,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_059",
+      "file": "medium20_059.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077159,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2063888888888889,
+        "safety_radius": 3,
+        "accepted_shape_count": 41,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 8,
+          "ellipse": 8,
+          "diamond": 8,
+          "l_shape": 4,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.206389,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_060",
+      "file": "medium20_060.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077160,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20194444444444445,
+        "safety_radius": 3,
+        "accepted_shape_count": 48,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 4,
+          "circle": 5,
+          "ellipse": 8,
+          "diamond": 11,
+          "l_shape": 9,
+          "t_shape": 11
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201944,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_061",
+      "file": "medium20_061.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077161,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.205,
+        "safety_radius": 3,
+        "accepted_shape_count": 44,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 6,
+          "ellipse": 9,
+          "diamond": 8,
+          "l_shape": 8,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.205,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_062",
+      "file": "medium20_062.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077162,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 46,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 6,
+          "ellipse": 8,
+          "diamond": 7,
+          "l_shape": 9,
+          "t_shape": 10
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_063",
+      "file": "medium20_063.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077163,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2013888888888889,
+        "safety_radius": 3,
+        "accepted_shape_count": 40,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 3,
+          "circle": 7,
+          "ellipse": 5,
+          "diamond": 5,
+          "l_shape": 13,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201389,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_064",
+      "file": "medium20_064.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077164,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20305555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 9,
+          "ellipse": 5,
+          "diamond": 6,
+          "l_shape": 11,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203056,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_065",
+      "file": "medium20_065.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077165,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2075,
+        "safety_radius": 3,
+        "accepted_shape_count": 46,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 10,
+          "circle": 8,
+          "ellipse": 6,
+          "diamond": 7,
+          "l_shape": 9,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.2075,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_066",
+      "file": "medium20_066.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077166,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2013888888888889,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 7,
+          "ellipse": 10,
+          "diamond": 8,
+          "l_shape": 7,
+          "t_shape": 4
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201389,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_067",
+      "file": "medium20_067.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077167,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20166666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 4,
+          "circle": 6,
+          "ellipse": 6,
+          "diamond": 9,
+          "l_shape": 9,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201667,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_068",
+      "file": "medium20_068.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077168,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 4,
+          "circle": 8,
+          "ellipse": 8,
+          "diamond": 7,
+          "l_shape": 10,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.2,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_069",
+      "file": "medium20_069.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077169,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 47,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 4,
+          "ellipse": 7,
+          "diamond": 6,
+          "l_shape": 8,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_070",
+      "file": "medium20_070.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077170,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20472222222222222,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 12,
+          "ellipse": 5,
+          "diamond": 8,
+          "l_shape": 6,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.204722,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_071",
+      "file": "medium20_071.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077171,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 6,
+          "ellipse": 6,
+          "diamond": 4,
+          "l_shape": 12,
+          "t_shape": 10
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_072",
+      "file": "medium20_072.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077172,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2013888888888889,
+        "safety_radius": 3,
+        "accepted_shape_count": 46,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 7,
+          "ellipse": 5,
+          "diamond": 8,
+          "l_shape": 8,
+          "t_shape": 12
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201389,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_073",
+      "file": "medium20_073.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077173,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20666666666666667,
+        "safety_radius": 3,
+        "accepted_shape_count": 48,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 9,
+          "ellipse": 7,
+          "diamond": 6,
+          "l_shape": 10,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.206667,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_074",
+      "file": "medium20_074.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077174,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20305555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 40,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 7,
+          "ellipse": 7,
+          "diamond": 4,
+          "l_shape": 4,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203056,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_075",
+      "file": "medium20_075.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077175,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2025,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 5,
+          "ellipse": 7,
+          "diamond": 6,
+          "l_shape": 12,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.2025,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_076",
+      "file": "medium20_076.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077176,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20555555555555555,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 11,
+          "circle": 2,
+          "ellipse": 8,
+          "diamond": 10,
+          "l_shape": 9,
+          "t_shape": 5
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.205556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_077",
+      "file": "medium20_077.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077177,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20166666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 11,
+          "ellipse": 6,
+          "diamond": 4,
+          "l_shape": 5,
+          "t_shape": 11
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201667,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_078",
+      "file": "medium20_078.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077178,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20333333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 5,
+          "ellipse": 7,
+          "diamond": 9,
+          "l_shape": 7,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203333,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_079",
+      "file": "medium20_079.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077179,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20305555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 41,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 10,
+          "ellipse": 6,
+          "diamond": 7,
+          "l_shape": 6,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203056,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_080",
+      "file": "medium20_080.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077180,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 6,
+          "ellipse": 9,
+          "diamond": 8,
+          "l_shape": 9,
+          "t_shape": 4
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_081",
+      "file": "medium20_081.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077181,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20166666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 7,
+          "ellipse": 13,
+          "diamond": 7,
+          "l_shape": 4,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201667,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_082",
+      "file": "medium20_082.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077182,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 8,
+          "ellipse": 4,
+          "diamond": 8,
+          "l_shape": 8,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.2,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_083",
+      "file": "medium20_083.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077183,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2011111111111111,
+        "safety_radius": 3,
+        "accepted_shape_count": 42,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 10,
+          "ellipse": 2,
+          "diamond": 14,
+          "l_shape": 7,
+          "t_shape": 3
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201111,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_084",
+      "file": "medium20_084.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077184,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20194444444444445,
+        "safety_radius": 3,
+        "accepted_shape_count": 40,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 5,
+          "ellipse": 7,
+          "diamond": 7,
+          "l_shape": 6,
+          "t_shape": 10
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201944,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_085",
+      "file": "medium20_085.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077185,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 4,
+          "circle": 8,
+          "ellipse": 4,
+          "diamond": 8,
+          "l_shape": 9,
+          "t_shape": 12
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_086",
+      "file": "medium20_086.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077186,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20333333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 41,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 11,
+          "ellipse": 5,
+          "diamond": 8,
+          "l_shape": 3,
+          "t_shape": 5
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203333,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_087",
+      "file": "medium20_087.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077187,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.205,
+        "safety_radius": 3,
+        "accepted_shape_count": 41,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 9,
+          "ellipse": 8,
+          "diamond": 3,
+          "l_shape": 5,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.205,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_088",
+      "file": "medium20_088.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077188,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2038888888888889,
+        "safety_radius": 3,
+        "accepted_shape_count": 46,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 6,
+          "ellipse": 5,
+          "diamond": 9,
+          "l_shape": 9,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203889,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_089",
+      "file": "medium20_089.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077189,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20583333333333334,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 4,
+          "ellipse": 10,
+          "diamond": 7,
+          "l_shape": 4,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.205833,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_090",
+      "file": "medium20_090.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077190,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20416666666666666,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 5,
+          "ellipse": 7,
+          "diamond": 13,
+          "l_shape": 7,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.204167,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_091",
+      "file": "medium20_091.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077191,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 45,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 5,
+          "ellipse": 9,
+          "diamond": 12,
+          "l_shape": 4,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_092",
+      "file": "medium20_092.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077192,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 43,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 10,
+          "circle": 8,
+          "ellipse": 6,
+          "diamond": 4,
+          "l_shape": 7,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_093",
+      "file": "medium20_093.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077193,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20444444444444446,
+        "safety_radius": 3,
+        "accepted_shape_count": 49,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 13,
+          "ellipse": 5,
+          "diamond": 9,
+          "l_shape": 8,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.204444,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_094",
+      "file": "medium20_094.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077194,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20194444444444445,
+        "safety_radius": 3,
+        "accepted_shape_count": 47,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 11,
+          "ellipse": 6,
+          "diamond": 5,
+          "l_shape": 11,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.201944,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_095",
+      "file": "medium20_095.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077195,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20027777777777778,
+        "safety_radius": 3,
+        "accepted_shape_count": 44,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 7,
+          "circle": 8,
+          "ellipse": 8,
+          "diamond": 11,
+          "l_shape": 4,
+          "t_shape": 6
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200278,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_096",
+      "file": "medium20_096.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077196,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20305555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 40,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 8,
+          "ellipse": 9,
+          "diamond": 6,
+          "l_shape": 5,
+          "t_shape": 4
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203056,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_097",
+      "file": "medium20_097.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077197,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20277777777777778,
+        "safety_radius": 3,
+        "accepted_shape_count": 53,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 10,
+          "circle": 6,
+          "ellipse": 15,
+          "diamond": 8,
+          "l_shape": 5,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.202778,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_098",
+      "file": "medium20_098.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077198,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.21027777777777779,
+        "safety_radius": 3,
+        "accepted_shape_count": 47,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 9,
+          "ellipse": 9,
+          "diamond": 8,
+          "l_shape": 9,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.210278,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_099",
+      "file": "medium20_099.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077199,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.20055555555555554,
+        "safety_radius": 3,
+        "accepted_shape_count": 39,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 5,
+          "circle": 5,
+          "ellipse": 4,
+          "diamond": 7,
+          "l_shape": 8,
+          "t_shape": 10
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.200556,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    },
+    {
+      "id": "medium20_100",
+      "file": "medium20_100.npz",
+      "difficulty": "medium20",
+      "difficulty_label": "中等20%障碍",
+      "map_size": 60,
+      "seed": 2026077200,
+      "start": [
+        0,
+        0
+      ],
+      "goal": [
+        59,
+        59
+      ],
+      "target_obstacle_ratio": 0.2,
+      "safety_radius": 3,
+      "value_mode": "no_task",
+      "start_rule": "fixed_upper_left",
+      "goal_rule": "fixed_lower_right",
+      "cost_profile": "no_task_model_cost",
+      "evaluation_profile": "no_task",
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.2,
+        "actual_obstacle_ratio": 0.2038888888888889,
+        "safety_radius": 3,
+        "accepted_shape_count": 41,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 6,
+          "circle": 4,
+          "ellipse": 6,
+          "diamond": 6,
+          "l_shape": 11,
+          "t_shape": 8
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "retry_count": 0,
+      "blocked_ratio": 0.203889,
+      "task_count": 0,
+      "goal_manhattan_distance": 118,
+      "goal_euclidean_distance": 83.4386
+    }
+  ]
+}

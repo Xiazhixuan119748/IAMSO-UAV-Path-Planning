@@ -1,0 +1,4617 @@
+{
+  "dataset_name": "iamso_collision_weight_hard35_reachable_100",
+  "dataset_version": "1.0",
+  "created_at": "2026-07-09T20:35:11+08:00",
+  "root": "uav_planner/experiments/fixed_benchmark/datasets/iamso_collision_weight_hard35_reachable_100",
+  "difficulty": "hard35",
+  "difficulty_label": "困难35%可达",
+  "map_size": 90,
+  "map_count": 100,
+  "start_rule": "fixed_center",
+  "goal_rule": "fixed_upper_right_quadrant_with_margin",
+  "target_obstacle_ratio": 0.35,
+  "safety_radius": 4,
+  "connectivity_protected": true,
+  "maps": [
+    {
+      "id": "hard35_001",
+      "file": "hard35_001.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073901,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3520987654320988,
+        "safety_radius": 4,
+        "accepted_shape_count": 100,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 13,
+          "circle": 21,
+          "ellipse": 14,
+          "diamond": 13,
+          "l_shape": 19,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352099,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_002",
+      "file": "hard35_002.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073902,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35012345679012347,
+        "safety_radius": 4,
+        "accepted_shape_count": 107,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 22,
+          "circle": 15,
+          "ellipse": 18,
+          "diamond": 17,
+          "l_shape": 20,
+          "t_shape": 15
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350123,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_003",
+      "file": "hard35_003.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073903,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3519753086419753,
+        "safety_radius": 4,
+        "accepted_shape_count": 101,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 21,
+          "ellipse": 18,
+          "diamond": 12,
+          "l_shape": 14,
+          "t_shape": 16
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351975,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_004",
+      "file": "hard35_004.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073904,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35185185185185186,
+        "safety_radius": 4,
+        "accepted_shape_count": 95,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 23,
+          "ellipse": 17,
+          "diamond": 15,
+          "l_shape": 14,
+          "t_shape": 11
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351852,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_005",
+      "file": "hard35_005.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073905,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35518518518518516,
+        "safety_radius": 4,
+        "accepted_shape_count": 97,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 8,
+          "circle": 19,
+          "ellipse": 14,
+          "diamond": 21,
+          "l_shape": 16,
+          "t_shape": 19
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.355185,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_006",
+      "file": "hard35_006.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073906,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3506172839506173,
+        "safety_radius": 4,
+        "accepted_shape_count": 102,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 14,
+          "circle": 16,
+          "ellipse": 17,
+          "diamond": 17,
+          "l_shape": 15,
+          "t_shape": 23
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350617,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_007",
+      "file": "hard35_007.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073907,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35074074074074074,
+        "safety_radius": 4,
+        "accepted_shape_count": 95,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 12,
+          "circle": 14,
+          "ellipse": 13,
+          "diamond": 18,
+          "l_shape": 17,
+          "t_shape": 21
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350741,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_008",
+      "file": "hard35_008.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073908,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3506172839506173,
+        "safety_radius": 4,
+        "accepted_shape_count": 101,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 22,
+          "circle": 22,
+          "ellipse": 15,
+          "diamond": 17,
+          "l_shape": 12,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350617,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_009",
+      "file": "hard35_009.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073909,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35012345679012347,
+        "safety_radius": 4,
+        "accepted_shape_count": 102,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 13,
+          "ellipse": 18,
+          "diamond": 11,
+          "l_shape": 14,
+          "t_shape": 26
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350123,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_010",
+      "file": "hard35_010.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073910,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35172839506172837,
+        "safety_radius": 4,
+        "accepted_shape_count": 107,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 22,
+          "ellipse": 13,
+          "diamond": 19,
+          "l_shape": 16,
+          "t_shape": 22
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351728,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_011",
+      "file": "hard35_011.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073911,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3511111111111111,
+        "safety_radius": 4,
+        "accepted_shape_count": 85,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 18,
+          "circle": 14,
+          "ellipse": 17,
+          "diamond": 8,
+          "l_shape": 14,
+          "t_shape": 14
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351111,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_012",
+      "file": "hard35_012.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073912,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3528395061728395,
+        "safety_radius": 4,
+        "accepted_shape_count": 117,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 14,
+          "ellipse": 23,
+          "diamond": 22,
+          "l_shape": 18,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35284,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_013",
+      "file": "hard35_013.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073913,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35444444444444445,
+        "safety_radius": 4,
+        "accepted_shape_count": 90,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 27,
+          "circle": 14,
+          "ellipse": 14,
+          "diamond": 10,
+          "l_shape": 18,
+          "t_shape": 7
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.354444,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_014",
+      "file": "hard35_014.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073914,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35259259259259257,
+        "safety_radius": 4,
+        "accepted_shape_count": 100,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 23,
+          "circle": 14,
+          "ellipse": 15,
+          "diamond": 16,
+          "l_shape": 19,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352593,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_015",
+      "file": "hard35_015.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073915,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3511111111111111,
+        "safety_radius": 4,
+        "accepted_shape_count": 107,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 24,
+          "ellipse": 16,
+          "diamond": 17,
+          "l_shape": 15,
+          "t_shape": 15
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351111,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_016",
+      "file": "hard35_016.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073916,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3508641975308642,
+        "safety_radius": 4,
+        "accepted_shape_count": 93,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 19,
+          "circle": 15,
+          "ellipse": 14,
+          "diamond": 13,
+          "l_shape": 12,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350864,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_017",
+      "file": "hard35_017.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073917,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35246913580246914,
+        "safety_radius": 4,
+        "accepted_shape_count": 113,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 16,
+          "circle": 14,
+          "ellipse": 25,
+          "diamond": 17,
+          "l_shape": 21,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352469,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_018",
+      "file": "hard35_018.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073918,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35345679012345677,
+        "safety_radius": 4,
+        "accepted_shape_count": 109,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 17,
+          "ellipse": 14,
+          "diamond": 20,
+          "l_shape": 16,
+          "t_shape": 22
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.353457,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_019",
+      "file": "hard35_019.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073919,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3514814814814815,
+        "safety_radius": 4,
+        "accepted_shape_count": 108,
+        "rejected_shape_count": 1,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 16,
+          "ellipse": 27,
+          "diamond": 12,
+          "l_shape": 13,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 1
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351481,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_020",
+      "file": "hard35_020.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073920,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35185185185185186,
+        "safety_radius": 4,
+        "accepted_shape_count": 102,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 19,
+          "circle": 16,
+          "ellipse": 16,
+          "diamond": 23,
+          "l_shape": 11,
+          "t_shape": 17
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351852,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_021",
+      "file": "hard35_021.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073921,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35172839506172837,
+        "safety_radius": 4,
+        "accepted_shape_count": 113,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 18,
+          "circle": 14,
+          "ellipse": 20,
+          "diamond": 26,
+          "l_shape": 19,
+          "t_shape": 16
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351728,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_022",
+      "file": "hard35_022.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073922,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3512345679012346,
+        "safety_radius": 4,
+        "accepted_shape_count": 111,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 16,
+          "ellipse": 18,
+          "diamond": 12,
+          "l_shape": 24,
+          "t_shape": 26
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351235,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_023",
+      "file": "hard35_023.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073923,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3511111111111111,
+        "safety_radius": 4,
+        "accepted_shape_count": 99,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 21,
+          "circle": 18,
+          "ellipse": 12,
+          "diamond": 12,
+          "l_shape": 16,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351111,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_024",
+      "file": "hard35_024.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073924,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35333333333333333,
+        "safety_radius": 4,
+        "accepted_shape_count": 100,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 18,
+          "ellipse": 12,
+          "diamond": 16,
+          "l_shape": 19,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.353333,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_025",
+      "file": "hard35_025.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073925,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3511111111111111,
+        "safety_radius": 4,
+        "accepted_shape_count": 109,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 13,
+          "circle": 18,
+          "ellipse": 19,
+          "diamond": 16,
+          "l_shape": 18,
+          "t_shape": 25
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351111,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_026",
+      "file": "hard35_026.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073926,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3530864197530864,
+        "safety_radius": 4,
+        "accepted_shape_count": 96,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 13,
+          "circle": 23,
+          "ellipse": 16,
+          "diamond": 12,
+          "l_shape": 14,
+          "t_shape": 18
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.353086,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_027",
+      "file": "hard35_027.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073927,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35555555555555557,
+        "safety_radius": 4,
+        "accepted_shape_count": 98,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 19,
+          "circle": 21,
+          "ellipse": 12,
+          "diamond": 11,
+          "l_shape": 16,
+          "t_shape": 19
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.355556,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_028",
+      "file": "hard35_028.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073928,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3511111111111111,
+        "safety_radius": 4,
+        "accepted_shape_count": 92,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 18,
+          "circle": 17,
+          "ellipse": 12,
+          "diamond": 16,
+          "l_shape": 13,
+          "t_shape": 16
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351111,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_029",
+      "file": "hard35_029.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073929,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.351358024691358,
+        "safety_radius": 4,
+        "accepted_shape_count": 109,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 23,
+          "circle": 20,
+          "ellipse": 15,
+          "diamond": 19,
+          "l_shape": 16,
+          "t_shape": 16
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351358,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_030",
+      "file": "hard35_030.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073930,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35074074074074074,
+        "safety_radius": 4,
+        "accepted_shape_count": 108,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 18,
+          "circle": 18,
+          "ellipse": 13,
+          "diamond": 16,
+          "l_shape": 27,
+          "t_shape": 16
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350741,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_031",
+      "file": "hard35_031.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073931,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3502469135802469,
+        "safety_radius": 4,
+        "accepted_shape_count": 108,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 14,
+          "circle": 17,
+          "ellipse": 18,
+          "diamond": 16,
+          "l_shape": 23,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350247,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_032",
+      "file": "hard35_032.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073932,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3528395061728395,
+        "safety_radius": 4,
+        "accepted_shape_count": 118,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 19,
+          "ellipse": 21,
+          "diamond": 17,
+          "l_shape": 22,
+          "t_shape": 24
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35284,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_033",
+      "file": "hard35_033.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073933,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35,
+        "safety_radius": 4,
+        "accepted_shape_count": 85,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 23,
+          "ellipse": 13,
+          "diamond": 16,
+          "l_shape": 8,
+          "t_shape": 10
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_034",
+      "file": "hard35_034.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073934,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3504938271604938,
+        "safety_radius": 4,
+        "accepted_shape_count": 100,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 17,
+          "circle": 16,
+          "ellipse": 12,
+          "diamond": 25,
+          "l_shape": 16,
+          "t_shape": 14
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350494,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_035",
+      "file": "hard35_035.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073935,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3523456790123457,
+        "safety_radius": 4,
+        "accepted_shape_count": 114,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 16,
+          "circle": 20,
+          "ellipse": 18,
+          "diamond": 22,
+          "l_shape": 18,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352346,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_036",
+      "file": "hard35_036.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073936,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3512345679012346,
+        "safety_radius": 4,
+        "accepted_shape_count": 88,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 14,
+          "circle": 18,
+          "ellipse": 16,
+          "diamond": 16,
+          "l_shape": 13,
+          "t_shape": 11
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351235,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_037",
+      "file": "hard35_037.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073937,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35555555555555557,
+        "safety_radius": 4,
+        "accepted_shape_count": 112,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 19,
+          "circle": 13,
+          "ellipse": 20,
+          "diamond": 26,
+          "l_shape": 13,
+          "t_shape": 21
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.355556,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_038",
+      "file": "hard35_038.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073938,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35074074074074074,
+        "safety_radius": 4,
+        "accepted_shape_count": 102,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 19,
+          "ellipse": 19,
+          "diamond": 20,
+          "l_shape": 17,
+          "t_shape": 12
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350741,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_039",
+      "file": "hard35_039.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073939,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3514814814814815,
+        "safety_radius": 4,
+        "accepted_shape_count": 99,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 14,
+          "circle": 18,
+          "ellipse": 17,
+          "diamond": 18,
+          "l_shape": 19,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351481,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_040",
+      "file": "hard35_040.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073940,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.351358024691358,
+        "safety_radius": 4,
+        "accepted_shape_count": 98,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 13,
+          "circle": 21,
+          "ellipse": 16,
+          "diamond": 12,
+          "l_shape": 15,
+          "t_shape": 21
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351358,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_041",
+      "file": "hard35_041.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073941,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35259259259259257,
+        "safety_radius": 4,
+        "accepted_shape_count": 90,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 18,
+          "circle": 15,
+          "ellipse": 12,
+          "diamond": 16,
+          "l_shape": 12,
+          "t_shape": 17
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352593,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_042",
+      "file": "hard35_042.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073942,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3532098765432099,
+        "safety_radius": 4,
+        "accepted_shape_count": 110,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 18,
+          "circle": 10,
+          "ellipse": 18,
+          "diamond": 17,
+          "l_shape": 25,
+          "t_shape": 22
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35321,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_043",
+      "file": "hard35_043.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073943,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35,
+        "safety_radius": 4,
+        "accepted_shape_count": 109,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 22,
+          "circle": 16,
+          "ellipse": 19,
+          "diamond": 24,
+          "l_shape": 11,
+          "t_shape": 17
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_044",
+      "file": "hard35_044.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073944,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3558024691358025,
+        "safety_radius": 4,
+        "accepted_shape_count": 98,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 16,
+          "circle": 20,
+          "ellipse": 13,
+          "diamond": 14,
+          "l_shape": 22,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.355802,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_045",
+      "file": "hard35_045.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073945,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3519753086419753,
+        "safety_radius": 4,
+        "accepted_shape_count": 93,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 9,
+          "circle": 9,
+          "ellipse": 25,
+          "diamond": 17,
+          "l_shape": 21,
+          "t_shape": 12
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351975,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_046",
+      "file": "hard35_046.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073946,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3565432098765432,
+        "safety_radius": 4,
+        "accepted_shape_count": 123,
+        "rejected_shape_count": 1,
+        "shape_mix": {
+          "rectangle": 17,
+          "circle": 22,
+          "ellipse": 18,
+          "diamond": 28,
+          "l_shape": 20,
+          "t_shape": 18
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 1,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.356543,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_047",
+      "file": "hard35_047.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073947,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35962962962962963,
+        "safety_radius": 4,
+        "accepted_shape_count": 91,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 16,
+          "circle": 14,
+          "ellipse": 12,
+          "diamond": 16,
+          "l_shape": 19,
+          "t_shape": 14
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35963,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_048",
+      "file": "hard35_048.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073948,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3519753086419753,
+        "safety_radius": 4,
+        "accepted_shape_count": 105,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 17,
+          "circle": 23,
+          "ellipse": 14,
+          "diamond": 15,
+          "l_shape": 16,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351975,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_049",
+      "file": "hard35_049.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073949,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35333333333333333,
+        "safety_radius": 4,
+        "accepted_shape_count": 98,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 17,
+          "circle": 11,
+          "ellipse": 19,
+          "diamond": 19,
+          "l_shape": 15,
+          "t_shape": 17
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.353333,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_050",
+      "file": "hard35_050.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073950,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3506172839506173,
+        "safety_radius": 4,
+        "accepted_shape_count": 115,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 19,
+          "circle": 20,
+          "ellipse": 16,
+          "diamond": 18,
+          "l_shape": 23,
+          "t_shape": 19
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350617,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_051",
+      "file": "hard35_051.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073951,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3512345679012346,
+        "safety_radius": 4,
+        "accepted_shape_count": 109,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 16,
+          "circle": 15,
+          "ellipse": 21,
+          "diamond": 19,
+          "l_shape": 24,
+          "t_shape": 14
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351235,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_052",
+      "file": "hard35_052.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073952,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3502469135802469,
+        "safety_radius": 4,
+        "accepted_shape_count": 90,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 24,
+          "circle": 13,
+          "ellipse": 12,
+          "diamond": 15,
+          "l_shape": 12,
+          "t_shape": 14
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350247,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_053",
+      "file": "hard35_053.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073953,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3512345679012346,
+        "safety_radius": 4,
+        "accepted_shape_count": 87,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 18,
+          "ellipse": 13,
+          "diamond": 12,
+          "l_shape": 10,
+          "t_shape": 19
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351235,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_054",
+      "file": "hard35_054.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073954,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.352962962962963,
+        "safety_radius": 4,
+        "accepted_shape_count": 99,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 17,
+          "circle": 24,
+          "ellipse": 10,
+          "diamond": 17,
+          "l_shape": 18,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352963,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_055",
+      "file": "hard35_055.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073955,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3512345679012346,
+        "safety_radius": 4,
+        "accepted_shape_count": 101,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 12,
+          "circle": 21,
+          "ellipse": 21,
+          "diamond": 15,
+          "l_shape": 14,
+          "t_shape": 18
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351235,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_056",
+      "file": "hard35_056.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073956,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3511111111111111,
+        "safety_radius": 4,
+        "accepted_shape_count": 117,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 13,
+          "circle": 21,
+          "ellipse": 23,
+          "diamond": 12,
+          "l_shape": 26,
+          "t_shape": 22
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351111,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_057",
+      "file": "hard35_057.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073957,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35,
+        "safety_radius": 4,
+        "accepted_shape_count": 96,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 13,
+          "circle": 22,
+          "ellipse": 19,
+          "diamond": 14,
+          "l_shape": 14,
+          "t_shape": 14
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_058",
+      "file": "hard35_058.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073958,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35432098765432096,
+        "safety_radius": 4,
+        "accepted_shape_count": 107,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 20,
+          "ellipse": 19,
+          "diamond": 12,
+          "l_shape": 24,
+          "t_shape": 17
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.354321,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_059",
+      "file": "hard35_059.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073959,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3506172839506173,
+        "safety_radius": 4,
+        "accepted_shape_count": 109,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 16,
+          "ellipse": 23,
+          "diamond": 16,
+          "l_shape": 16,
+          "t_shape": 18
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350617,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_060",
+      "file": "hard35_060.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073960,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3503703703703704,
+        "safety_radius": 4,
+        "accepted_shape_count": 98,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 16,
+          "circle": 20,
+          "ellipse": 13,
+          "diamond": 16,
+          "l_shape": 15,
+          "t_shape": 18
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35037,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_061",
+      "file": "hard35_061.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073961,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3523456790123457,
+        "safety_radius": 4,
+        "accepted_shape_count": 108,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 15,
+          "ellipse": 23,
+          "diamond": 14,
+          "l_shape": 21,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352346,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_062",
+      "file": "hard35_062.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073962,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35185185185185186,
+        "safety_radius": 4,
+        "accepted_shape_count": 96,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 28,
+          "circle": 10,
+          "ellipse": 17,
+          "diamond": 9,
+          "l_shape": 11,
+          "t_shape": 21
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351852,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_063",
+      "file": "hard35_063.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073963,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35012345679012347,
+        "safety_radius": 4,
+        "accepted_shape_count": 105,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 14,
+          "ellipse": 17,
+          "diamond": 21,
+          "l_shape": 20,
+          "t_shape": 18
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350123,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_064",
+      "file": "hard35_064.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073964,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3503703703703704,
+        "safety_radius": 4,
+        "accepted_shape_count": 108,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 14,
+          "circle": 24,
+          "ellipse": 17,
+          "diamond": 15,
+          "l_shape": 15,
+          "t_shape": 23
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35037,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_065",
+      "file": "hard35_065.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073965,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3511111111111111,
+        "safety_radius": 4,
+        "accepted_shape_count": 104,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 12,
+          "circle": 15,
+          "ellipse": 14,
+          "diamond": 20,
+          "l_shape": 22,
+          "t_shape": 21
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351111,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_066",
+      "file": "hard35_066.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073966,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3537037037037037,
+        "safety_radius": 4,
+        "accepted_shape_count": 100,
+        "rejected_shape_count": 1,
+        "shape_mix": {
+          "rectangle": 21,
+          "circle": 16,
+          "ellipse": 14,
+          "diamond": 14,
+          "l_shape": 18,
+          "t_shape": 17
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 1,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.353704,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_067",
+      "file": "hard35_067.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073967,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35,
+        "safety_radius": 4,
+        "accepted_shape_count": 115,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 13,
+          "circle": 12,
+          "ellipse": 24,
+          "diamond": 26,
+          "l_shape": 22,
+          "t_shape": 18
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_068",
+      "file": "hard35_068.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073968,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35172839506172837,
+        "safety_radius": 4,
+        "accepted_shape_count": 112,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 17,
+          "circle": 14,
+          "ellipse": 18,
+          "diamond": 26,
+          "l_shape": 18,
+          "t_shape": 19
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351728,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_069",
+      "file": "hard35_069.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073969,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35358024691358025,
+        "safety_radius": 4,
+        "accepted_shape_count": 104,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 23,
+          "circle": 24,
+          "ellipse": 11,
+          "diamond": 12,
+          "l_shape": 14,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35358,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_070",
+      "file": "hard35_070.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073970,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35,
+        "safety_radius": 4,
+        "accepted_shape_count": 103,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 14,
+          "circle": 21,
+          "ellipse": 20,
+          "diamond": 16,
+          "l_shape": 17,
+          "t_shape": 15
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_071",
+      "file": "hard35_071.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073971,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3511111111111111,
+        "safety_radius": 4,
+        "accepted_shape_count": 109,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 21,
+          "circle": 13,
+          "ellipse": 21,
+          "diamond": 16,
+          "l_shape": 25,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351111,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_072",
+      "file": "hard35_072.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073972,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3530864197530864,
+        "safety_radius": 4,
+        "accepted_shape_count": 94,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 22,
+          "ellipse": 17,
+          "diamond": 17,
+          "l_shape": 8,
+          "t_shape": 15
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.353086,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_073",
+      "file": "hard35_073.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073973,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.351358024691358,
+        "safety_radius": 4,
+        "accepted_shape_count": 110,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 12,
+          "circle": 22,
+          "ellipse": 24,
+          "diamond": 15,
+          "l_shape": 16,
+          "t_shape": 21
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351358,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_074",
+      "file": "hard35_074.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073974,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35074074074074074,
+        "safety_radius": 4,
+        "accepted_shape_count": 111,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 16,
+          "circle": 14,
+          "ellipse": 19,
+          "diamond": 18,
+          "l_shape": 23,
+          "t_shape": 21
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350741,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_075",
+      "file": "hard35_075.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073975,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3520987654320988,
+        "safety_radius": 4,
+        "accepted_shape_count": 107,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 22,
+          "circle": 16,
+          "ellipse": 14,
+          "diamond": 21,
+          "l_shape": 19,
+          "t_shape": 15
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352099,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_076",
+      "file": "hard35_076.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073976,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35,
+        "safety_radius": 4,
+        "accepted_shape_count": 108,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 19,
+          "ellipse": 14,
+          "diamond": 12,
+          "l_shape": 23,
+          "t_shape": 25
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_077",
+      "file": "hard35_077.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073977,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35012345679012347,
+        "safety_radius": 4,
+        "accepted_shape_count": 113,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 23,
+          "circle": 18,
+          "ellipse": 22,
+          "diamond": 18,
+          "l_shape": 23,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350123,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_078",
+      "file": "hard35_078.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073978,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3519753086419753,
+        "safety_radius": 4,
+        "accepted_shape_count": 99,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 25,
+          "circle": 10,
+          "ellipse": 18,
+          "diamond": 17,
+          "l_shape": 16,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351975,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_079",
+      "file": "hard35_079.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073979,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3503703703703704,
+        "safety_radius": 4,
+        "accepted_shape_count": 119,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 13,
+          "circle": 19,
+          "ellipse": 19,
+          "diamond": 22,
+          "l_shape": 21,
+          "t_shape": 25
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35037,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_080",
+      "file": "hard35_080.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073980,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3520987654320988,
+        "safety_radius": 4,
+        "accepted_shape_count": 92,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 9,
+          "ellipse": 15,
+          "diamond": 21,
+          "l_shape": 13,
+          "t_shape": 14
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352099,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_081",
+      "file": "hard35_081.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073981,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35432098765432096,
+        "safety_radius": 4,
+        "accepted_shape_count": 101,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 21,
+          "circle": 11,
+          "ellipse": 20,
+          "diamond": 19,
+          "l_shape": 17,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.354321,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_082",
+      "file": "hard35_082.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073982,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35518518518518516,
+        "safety_radius": 4,
+        "accepted_shape_count": 118,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 22,
+          "circle": 16,
+          "ellipse": 16,
+          "diamond": 20,
+          "l_shape": 24,
+          "t_shape": 20
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.355185,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_083",
+      "file": "hard35_083.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073983,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35160493827160494,
+        "safety_radius": 4,
+        "accepted_shape_count": 111,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 12,
+          "circle": 18,
+          "ellipse": 23,
+          "diamond": 17,
+          "l_shape": 24,
+          "t_shape": 17
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351605,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_084",
+      "file": "hard35_084.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073984,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35172839506172837,
+        "safety_radius": 4,
+        "accepted_shape_count": 106,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 22,
+          "circle": 16,
+          "ellipse": 18,
+          "diamond": 20,
+          "l_shape": 18,
+          "t_shape": 12
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351728,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_085",
+      "file": "hard35_085.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073985,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3508641975308642,
+        "safety_radius": 4,
+        "accepted_shape_count": 123,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 21,
+          "circle": 17,
+          "ellipse": 22,
+          "diamond": 15,
+          "l_shape": 25,
+          "t_shape": 23
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350864,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_086",
+      "file": "hard35_086.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073986,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3520987654320988,
+        "safety_radius": 4,
+        "accepted_shape_count": 91,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 16,
+          "circle": 14,
+          "ellipse": 14,
+          "diamond": 17,
+          "l_shape": 13,
+          "t_shape": 17
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352099,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_087",
+      "file": "hard35_087.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073987,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35160493827160494,
+        "safety_radius": 4,
+        "accepted_shape_count": 105,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 17,
+          "circle": 18,
+          "ellipse": 16,
+          "diamond": 19,
+          "l_shape": 16,
+          "t_shape": 19
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.351605,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_088",
+      "file": "hard35_088.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073988,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35469135802469137,
+        "safety_radius": 4,
+        "accepted_shape_count": 104,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 15,
+          "ellipse": 19,
+          "diamond": 19,
+          "l_shape": 12,
+          "t_shape": 19
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.354691,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_089",
+      "file": "hard35_089.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073989,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3540740740740741,
+        "safety_radius": 4,
+        "accepted_shape_count": 108,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 11,
+          "circle": 26,
+          "ellipse": 19,
+          "diamond": 19,
+          "l_shape": 24,
+          "t_shape": 9
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.354074,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_090",
+      "file": "hard35_090.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073990,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3508641975308642,
+        "safety_radius": 4,
+        "accepted_shape_count": 95,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 16,
+          "ellipse": 15,
+          "diamond": 11,
+          "l_shape": 14,
+          "t_shape": 19
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350864,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_091",
+      "file": "hard35_091.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073991,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3503703703703704,
+        "safety_radius": 4,
+        "accepted_shape_count": 104,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 19,
+          "circle": 16,
+          "ellipse": 9,
+          "diamond": 20,
+          "l_shape": 19,
+          "t_shape": 21
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35037,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_092",
+      "file": "hard35_092.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073992,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3523456790123457,
+        "safety_radius": 4,
+        "accepted_shape_count": 93,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 16,
+          "circle": 14,
+          "ellipse": 17,
+          "diamond": 12,
+          "l_shape": 21,
+          "t_shape": 13
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352346,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_093",
+      "file": "hard35_093.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073993,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35074074074074074,
+        "safety_radius": 4,
+        "accepted_shape_count": 105,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 17,
+          "circle": 17,
+          "ellipse": 24,
+          "diamond": 16,
+          "l_shape": 15,
+          "t_shape": 16
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350741,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_094",
+      "file": "hard35_094.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073994,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35074074074074074,
+        "safety_radius": 4,
+        "accepted_shape_count": 100,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 23,
+          "circle": 21,
+          "ellipse": 10,
+          "diamond": 14,
+          "l_shape": 17,
+          "t_shape": 15
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350741,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_095",
+      "file": "hard35_095.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073995,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3504938271604938,
+        "safety_radius": 4,
+        "accepted_shape_count": 113,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 10,
+          "circle": 21,
+          "ellipse": 22,
+          "diamond": 24,
+          "l_shape": 12,
+          "t_shape": 24
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350494,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_096",
+      "file": "hard35_096.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073996,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3539506172839506,
+        "safety_radius": 4,
+        "accepted_shape_count": 100,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 14,
+          "circle": 10,
+          "ellipse": 20,
+          "diamond": 17,
+          "l_shape": 17,
+          "t_shape": 22
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.353951,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_097",
+      "file": "hard35_097.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073997,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3522222222222222,
+        "safety_radius": 4,
+        "accepted_shape_count": 107,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 17,
+          "circle": 18,
+          "ellipse": 16,
+          "diamond": 23,
+          "l_shape": 19,
+          "t_shape": 14
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.352222,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_098",
+      "file": "hard35_098.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073998,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3550617283950617,
+        "safety_radius": 4,
+        "accepted_shape_count": 106,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 20,
+          "circle": 19,
+          "ellipse": 14,
+          "diamond": 17,
+          "l_shape": 17,
+          "t_shape": 19
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.355062,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_099",
+      "file": "hard35_099.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026073999,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.3504938271604938,
+        "safety_radius": 4,
+        "accepted_shape_count": 109,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 18,
+          "circle": 19,
+          "ellipse": 17,
+          "diamond": 20,
+          "l_shape": 14,
+          "t_shape": 21
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.350494,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    },
+    {
+      "id": "hard35_100",
+      "file": "hard35_100.npz",
+      "difficulty": "hard35",
+      "difficulty_label": "困难35%可达",
+      "map_size": 90,
+      "seed": 2026074000,
+      "start": [
+        45,
+        45
+      ],
+      "goal": [
+        22,
+        67
+      ],
+      "target_obstacle_ratio": 0.35,
+      "safety_radius": 4,
+      "obstacle_meta": {
+        "target_obstacle_ratio": 0.35,
+        "actual_obstacle_ratio": 0.35,
+        "safety_radius": 4,
+        "accepted_shape_count": 111,
+        "rejected_shape_count": 0,
+        "shape_mix": {
+          "rectangle": 15,
+          "circle": 15,
+          "ellipse": 20,
+          "diamond": 21,
+          "l_shape": 24,
+          "t_shape": 16
+        },
+        "rejected_shape_mix": {
+          "rectangle": 0,
+          "circle": 0,
+          "ellipse": 0,
+          "diamond": 0,
+          "l_shape": 0,
+          "t_shape": 0
+        },
+        "connectivity_protected": true
+      },
+      "blocked_ratio": 0.35,
+      "task_count": 5,
+      "goal_manhattan_distance": 45,
+      "goal_euclidean_distance": 31.827661
+    }
+  ]
+}
